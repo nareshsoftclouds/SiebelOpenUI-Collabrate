@@ -18,6 +18,7 @@ if (typeof(SiebelAppFacade.BeautifulThingPR) === "undefined") {
     BeautifulThingPR.prototype.ShowUI = function () {
      SiebelAppFacade.BeautifulThingPR.superclass.ShowUI.apply(this, arguments);
 	 console.log("Hello");
+	 console.log("Hello");
     }
 
     BeautifulThingPR.prototype.BindData = function (bRefresh) {
